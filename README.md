@@ -1,2 +1,2 @@
-# hayat-template
-Template for prestashop
+# Plantilla de Hayat
+Como instalarla
