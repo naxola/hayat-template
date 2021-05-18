@@ -1,5 +1,8 @@
 .header-top{
   position: relative;
+  font-size: 13px;
+  line-height: 16px;
+  letter-spacing: 1.12px;
 }
 .menu-top{
   @extend .d-flex;
@@ -7,10 +10,11 @@
 }
 .menu__item-link--top{
   color: $menu-topitem-color;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase;
-  display: block;
+  display: flex; //block;
   padding: $spacer/2;
+  cursor: pointer;
 }
 
 @include media-breakpoint-up(md) {

@@ -23,7 +23,12 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 {block name='header_banner'}
-  <div class="header-banner">
+  <div class="header__banner">
+    <div class="promo-messages-slider-holder">
+        <button class="slick-prev position-relative"><span class="material-icons">chevron_left</span></button>
+        <a class="promo-messages" href="#">Mensaje de promo fasdfasdf dasflakjf asfl </a>
+        <button class="slick-next"><span class="material-icons">chevron_right</span></button>
+    </div>
       {hook h='displayBanner'}
   </div>
 {/block}

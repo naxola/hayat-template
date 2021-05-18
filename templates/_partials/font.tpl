@@ -1,3 +1,7 @@
+
+ {* 
+  Sacamos una variable smarty para ver qué contiene -> {$shop|@var_dump}
+ *}
 {literal}
 <link rel="preconnect" href="//fonts.gstatic.com/" crossorigin>
 <link rel="preconnect" href="//ajax.googleapis.com" crossorigin>
@@ -14,3 +18,7 @@
         s.parentNode.insertBefore(wf, s);
     })(); </script>
 {/literal}
+<link rel="preload" href="{$urls.base_url}themes/hayat-template/assets/museosans/MuseoSans-Thin.otf" as="font">
+<link rel="preload" href="{$urls.base_url}themes/hayat-template/assets/museosans/MuseoSans-Regular.otf" as="font">
+<link rel="preload" href="{$urls.base_url}themes/hayat-template/assets/museosans/MuseoSans-Bold.otf" as="font">
+<link rel="preload" href="{$urls.base_url}themes/hayat-template/assets/museosans/MuseoSans-Blanck.otf" as="font">

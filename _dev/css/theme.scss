@@ -18,6 +18,11 @@
 @import "components/slick";
 @import "components/slick-theme";
 @import "components/utilities";
+@import "components/banner-top";
+
 
 @import "partials/bs_alpha";
 
+body{
+    font-family: $font-family-museosans;
+}
